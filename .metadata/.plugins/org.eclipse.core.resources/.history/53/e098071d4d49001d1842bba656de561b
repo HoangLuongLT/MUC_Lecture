@@ -1,0 +1,23 @@
+/*
+ * fsm_auto_run.c
+ *
+ *  Created on: Oct 11, 2022
+ *      Author: Admin
+ */
+
+#include "fsm_auto_run.h"
+
+status=INIT;
+
+
+
+void fsm3Color(){
+	switch(status){
+	case INIT:
+		if(timer0_flag==1){
+			setTimer0(1000);
+			turnOnlyRed();
+		}
+	}
+}
+

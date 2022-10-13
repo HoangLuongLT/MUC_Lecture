@@ -1,0 +1,13 @@
+/*
+ * I_O_LED.c
+ *
+ *  Created on: Oct 11, 2022
+ *      Author: Admin
+ */
+
+#include "I_O_LED.h"
+
+
+void ToggleLed_Red(){
+	HAL_GPIO_TogglePin(GPIOA, LED_RED_Pin);
+}
