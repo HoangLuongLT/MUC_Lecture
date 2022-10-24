@@ -1,6 +1,7 @@
-I_O_LED.c:11:6:ToggleLed_Red	8	static
-I_O_LED.c:15:6:ToggleLed_Green	8	static
-I_O_LED.c:19:6:ToggleLed_Yellow	8	static
-I_O_LED.c:23:6:turnOnlyRed	8	static
-I_O_LED.c:28:6:turnOnlyGreen	8	static
-I_O_LED.c:33:6:turnOnlyYellow	8	static
+I_O_LED.c:10:6:reset3Led	8	static
+I_O_LED.c:14:6:ToggleLed_Red	8	static
+I_O_LED.c:18:6:ToggleLed_Green	8	static
+I_O_LED.c:22:6:ToggleLed_Yellow	8	static
+I_O_LED.c:26:6:turnOnlyRed	8	static
+I_O_LED.c:31:6:turnOnlyGreen	8	static
+I_O_LED.c:36:6:turnOnlyYellow	8	static

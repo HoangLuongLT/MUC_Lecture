@@ -7,6 +7,9 @@
 
 #include "I_O_LED.h"
 
+void reset3Led(){
+	HAL_GPIO_WritePin(GPIOA, LED_RED_Pin|LED_GREEN_Pin|LED_YELLOW_Pin, GPIO_PIN_RESET);
+}
 
 void ToggleLed_Red(){
 	HAL_GPIO_TogglePin(GPIOA, LED_RED_Pin);

@@ -1,5 +1,7 @@
 "./Core/Src/I_O_LED.o"
+"./Core/Src/button.o"
 "./Core/Src/fsm_auto_run.o"
+"./Core/Src/fsm_manual.o"
 "./Core/Src/global.o"
 "./Core/Src/main.o"
 "./Core/Src/software_timer.o"

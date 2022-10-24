@@ -10,6 +10,8 @@
 
 #include "main.h"
 
+void reset3Led();
+
 void ToggleLed_Red();
 
 void ToggleLed_Green();
